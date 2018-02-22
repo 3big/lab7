@@ -12,7 +12,7 @@ function initializePage() {
 	$(".likeBtn").click(function(){
 		ga("send", "event", 'like', 'click');
 	});
-	$("btn.btn-default.likeBtn").click(function(){
+	$(".btn.btn-default.likeBtn").click(function(){
 		ga("send", "event", 'like', 'click');
 	});
 	// your code here
